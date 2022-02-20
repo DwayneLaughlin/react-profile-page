@@ -5,14 +5,15 @@ function Nav() {
   return (
     <div>
       <div className="buttons is-centered">
+        {/* Home Button */}
         <button className="button is-success">
           <Link to="/">Home</Link>
         </button>
-
-        <button className="button is-success">
+        {/* Contact Button */}
+        <button className="button is-primary">
           <Link to="/contact">Contact</Link>
         </button>
-
+        {/* portfolio button */}
         <button className="button is-success">
           <Link to="/portfolio">Portfolio</Link>
         </button>

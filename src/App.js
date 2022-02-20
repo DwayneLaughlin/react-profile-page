@@ -8,14 +8,17 @@ import Portfolio from "./components/Portfolio";
 
 function App() { 
   return (
-    <BrowserRouter>
-      <div>
-        <Nav />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/Contact" component={Contact} />
-        <Route exact path="/Portfolio" component={Portfolio} />
-      </div>
-    </BrowserRouter>
+    <div>
+      <BrowserRouter>
+        <div>
+          <Nav />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/Contact" component={Contact} />
+          <Route exact path="/Portfolio" component={Portfolio} />
+        </div> 
+      </BrowserRouter>
+     </div>
+
   );
 }
 
