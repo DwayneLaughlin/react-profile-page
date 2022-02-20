@@ -4,9 +4,9 @@ import me from "../assets/me.jpg";
 
 function Home() {
   return (
-    <div className="columns">
-      <div >
-        <p className="column is-four-fifths has-text-centered has-background-warning">
+    <div className="columns has-background-warning">
+      <div className="column is-three-fifths">
+        <p className="has-text-centered">
           I'm Dwayne Laughlin. I'm a lifelong Chicagoan currently living in the
           neighborhood where I grew up on the Westside. I attended Loyola
           University Chicago, graduating in summer of 2011 with a BA in Music.
@@ -31,7 +31,7 @@ function Home() {
         </p>
       </div>
 
-      <div className="column is-half has-text-centered has-background-warning">
+      <div className="column is-half has-text-centered ">
         <img src={me} alt="Dwayne"></img>
         <br></br>
         <a href="https://github.com/DwayneLaughlin" target="blank">

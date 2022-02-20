@@ -6,7 +6,7 @@ function Nav() {
     <div>
       <div className="buttons is-centered">
         {/* Home Button */}
-        <button className="button is-success">
+        <button className="button is-warning">
           <Link to="/">Home</Link>
         </button>
         {/* Contact Button */}

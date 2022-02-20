@@ -8,7 +8,7 @@ import dayplan from "../assets/dayplan.png";
 
 function Portfolio() {
   return (
-    <div>
+    <div className="has-background-success">
       <div className="columns">
         {/* tripbuddy */}
         <div className="column">
