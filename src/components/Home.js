@@ -8,8 +8,8 @@ function Home() {
       <div className="columns">
         <div className="column is-1"></div>
         <p className="column">
-          I'm Dwayne Laughlin. I'm a lifelong Chicagoan currently living in
-          the neighborhood whre I grew up on the Westside. I attended Loyola
+          I'm Dwayne Laughlin. I'm a lifelong Chicagoan currently living in the
+          neighborhood whre I grew up on the Westside. I attended Loyola
           University Chicago, graduating in summer of 2011 with a BA in Music.
           Since graduation I have spent time working as a music teacher,
           performing pianist, composer and producer. For the last 2 years I have

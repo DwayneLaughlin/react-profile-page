@@ -5,7 +5,7 @@ function Nav() {
   return (
     <div>
       <div className="buttons is-centered">
-        <button className=" button is-success">
+        <button className="button is-success">
           <Link to="/">Home</Link>
         </button>
 
@@ -20,6 +20,6 @@ function Nav() {
       <br />
     </div>
   );
-  }
+}
 
 export default Nav;
