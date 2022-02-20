@@ -1,13 +1,12 @@
 import React from "react";
 import me from "../assets/me.jpg";
-import resume from "../assets/Resume2019.pdf";
+
 
 function Home() {
   return (
-    <div className="has-background-warning">
-      <div className="columns">
-        <div className="column is-1"></div>
-        <p className="column">
+    <div className="columns">
+      <div >
+        <p className="column is-four-fifths has-text-centered has-background-warning">
           I'm Dwayne Laughlin. I'm a lifelong Chicagoan currently living in the
           neighborhood where I grew up on the Westside. I attended Loyola
           University Chicago, graduating in summer of 2011 with a BA in Music.
@@ -22,21 +21,24 @@ function Home() {
           <br />
           I completed the Northwestern Coding Bootcamp in March 2020 and have
           experience with HTML, CSS, Bootstrap, Bulma, Node, Javascript, SQL,
-          Mongo, and React. Since that time I have worked on smaller applications like a BMI calculator, random color generator, and an app that keeps score while users play Fantasy Top Chef. I am always looking for opportunities to expand my skills and leanr about new technologies and languages.
+          Mongo, and React. Since that time I have worked on smaller
+          applications like a BMI calculator, random color generator, and an app
+          that keeps score while users play Fantasy Top Chef. I am always
+          looking for opportunities to expand my skills and leanr about new
+          technologies and languages.
           <br />
           <br />
         </p>
-    
       </div>
 
-      <div className="column is-full has-text-centered">
+      <div className="column is-half has-text-centered has-background-warning">
         <img src={me} alt="Dwayne"></img>
         <br></br>
         <a href="https://github.com/DwayneLaughlin" target="blank">
           Github
         </a>
         <br />
-        <a href={resume} target="blank">
+        <a href="https://docs.google.com/document/d/1lrJNs4jrj6RFp2I3n28F7-UAJbDtG4shW9GCGHkP-M8/edit?usp=sharing" target="blank">
           Resume
         </a>
         <br />
