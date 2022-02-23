@@ -28,6 +28,7 @@ function Home() {
           technologies and languages.
           <br />
           <br />
+          This site was built with React and Bulma.
         </p>
       </div>
 
