@@ -1,23 +1,23 @@
 import React from "react";
-import tripbuddy from "../assets/tripbuddy.jpg";
+import bmicalc from "../assets/bmicalc.png";
 import password from "../assets/pwgen.png";
 import notes from "../assets/notetaker.png";
 import profgen from "../assets/ProfileGenerator.png";
-import recipic from "../assets/recipic.png";
+import topchef from "../assets/topchef.png";
 import dayplan from "../assets/dayplan.png";
 
 function Portfolio() {
   return (
     <div className="has-background-success">
       <div className="columns">
-        {/* tripbuddy */}
+        {/* BMI calculator */}
         <div className="column">
-          <a href="https://trip-buddy-2020.herokuapp.com/" target="blank">
-            <img src={tripbuddy} alt="TripBuddy"></img>
+          <a href="https://dwaynelaughlin.github.io/bmiproject/" target="blank">
+            <img src={bmicalc} alt="BMI Calculator"></img>
           </a>
-          <h1 className="has-text-centered">TripBuddy</h1>
+          <h1 className="has-text-centered">BMI Calculator</h1>
           <div className="has-text-centered">
-            <a href="https://github.com/evwhite2/Group2Project" target="blank">
+            <a href="https://github.com/DwayneLaughlin/bmiproject" target="blank">
               GitHub Repository
             </a>
           </div>
@@ -81,12 +81,12 @@ function Portfolio() {
 
         {/* Recipal */}
         <div className="column">
-          <a href="https://shellbellquinn.github.io/ReciPal" target="blank">
-            <img src={recipic} alt="ReciPal"></img>
+          <a href="https://dwaynelaughlin.github.io/fantasyTopChef/" target="blank">
+            <img src={topchef} alt="Fantasy Top Chef"></img>
           </a>
           <h1 className="has-text-centered">ReciPal</h1>
           <div className="has-text-centered">
-            <a href="https://github.com/shellbellquinn/ReciPal" target="blank">
+            <a href="https://github.com/DwayneLaughlin/fantasyTopChef" target="blank">
               GitHub Repository
             </a>
           </div>
