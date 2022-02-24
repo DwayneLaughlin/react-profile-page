@@ -1,10 +1,11 @@
 import React from "react";
 import me from "../assets/me.jpg";
+import '../assets/style.css'
 
 
 function Home() {
   return (
-    <div className="columns has-background-warning">
+    <div className="bordlength columns has-background-warning">
       <div className="column is-three-fifths">
         <p className="has-text-centered">
           I'm Dwayne Laughlin. I'm a lifelong Chicagoan currently living in the

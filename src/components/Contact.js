@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="has-background-primary">
+    <div className="has-background-primary bordlength">
       <div className="has-text-centered has-text-weight-bold is-size-1">Contact</div>
       <div className="columns">
         <div className="column is-1"></div>
