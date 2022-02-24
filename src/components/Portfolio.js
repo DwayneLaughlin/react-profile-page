@@ -5,10 +5,12 @@ import notes from "../assets/notetaker.png";
 import profgen from "../assets/ProfileGenerator.png";
 import topchef from "../assets/topchef.png";
 import dayplan from "../assets/dayplan.png";
+import '../assets/Style.css'
 
 function Portfolio() {
   return (
-    <div className="has-background-success">
+    <div className="bordlength has-background-success">
+      <h1 className="has-text-centered has-text-weight-bold is-size-1">Portfolio</h1>
       <div className="columns">
         {/* BMI calculator */}
         <div className="column">
