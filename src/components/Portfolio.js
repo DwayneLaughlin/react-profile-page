@@ -5,7 +5,7 @@ import notes from "../assets/notetaker.png";
 import profgen from "../assets/ProfileGenerator.png";
 import topchef from "../assets/topchef.png";
 import dayplan from "../assets/dayplan.png";
-import "../assets/Style.css";
+// import "../assets/Style.css";
 
 function Portfolio() {
   return (
