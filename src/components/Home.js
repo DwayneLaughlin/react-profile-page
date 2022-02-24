@@ -1,13 +1,14 @@
 import React from "react";
 import me from "../assets/me.jpg";
-import '../assets/Style.css'
-
+import "../assets/Style.css";
 
 function Home() {
   return (
     <div className="bordlength columns has-background-warning">
       <div className="column is-three-fifths">
-        <h1 className="has-text-centered has-text-weight-bold is-size-1">About Me</h1>
+        <h1 className="has-text-centered has-text-weight-bold is-size-1">
+          About Me
+        </h1>
         <p className="has-text-centered">
           I'm Dwayne Laughlin. I'm a lifelong Chicagoan currently living in the
           neighborhood where I grew up on the Westside. I attended Loyola
@@ -41,7 +42,10 @@ function Home() {
           Github
         </a>
         <br />
-        <a href="https://docs.google.com/document/d/1lrJNs4jrj6RFp2I3n28F7-UAJbDtG4shW9GCGHkP-M8/edit?usp=sharing" target="blank">
+        <a
+          href="https://docs.google.com/document/d/1lrJNs4jrj6RFp2I3n28F7-UAJbDtG4shW9GCGHkP-M8/edit?usp=sharing"
+          target="blank"
+        >
           Resume
         </a>
         <br />

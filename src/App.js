@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 
-function App() { 
+function App() {
   return (
     <div>
       <BrowserRouter>
@@ -15,10 +15,9 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/Contact" component={Contact} />
           <Route exact path="/Portfolio" component={Portfolio} />
-        </div> 
+        </div>
       </BrowserRouter>
-     </div>
-
+    </div>
   );
 }
 

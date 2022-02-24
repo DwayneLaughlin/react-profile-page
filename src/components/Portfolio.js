@@ -5,12 +5,14 @@ import notes from "../assets/notetaker.png";
 import profgen from "../assets/ProfileGenerator.png";
 import topchef from "../assets/topchef.png";
 import dayplan from "../assets/dayplan.png";
-import '../assets/Style.css'
+import "../assets/Style.css";
 
 function Portfolio() {
   return (
     <div className="bordlength has-background-success">
-      <h1 className="has-text-centered has-text-weight-bold is-size-1">Portfolio</h1>
+      <h1 className="has-text-centered has-text-weight-bold is-size-1">
+        Portfolio
+      </h1>
       <div className="columns">
         {/* BMI calculator */}
         <div className="column">
@@ -19,7 +21,10 @@ function Portfolio() {
           </a>
           <h1 className="has-text-centered">BMI Calculator</h1>
           <div className="has-text-centered">
-            <a href="https://github.com/DwayneLaughlin/bmiproject" target="blank">
+            <a
+              href="https://github.com/DwayneLaughlin/bmiproject"
+              target="blank"
+            >
               GitHub Repository
             </a>
           </div>
@@ -83,12 +88,18 @@ function Portfolio() {
 
         {/* Recipal */}
         <div className="column">
-          <a href="https://dwaynelaughlin.github.io/fantasyTopChef/" target="blank">
+          <a
+            href="https://dwaynelaughlin.github.io/fantasyTopChef/"
+            target="blank"
+          >
             <img src={topchef} alt="Fantasy Top Chef"></img>
           </a>
           <h1 className="has-text-centered">ReciPal</h1>
           <div className="has-text-centered">
-            <a href="https://github.com/DwayneLaughlin/fantasyTopChef" target="blank">
+            <a
+              href="https://github.com/DwayneLaughlin/fantasyTopChef"
+              target="blank"
+            >
               GitHub Repository
             </a>
           </div>
