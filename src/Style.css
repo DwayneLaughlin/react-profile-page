@@ -14,4 +14,26 @@
     justify-content: space-between;
 }
 
+.test-p {
+    opacity: 0;
+    animation: fade 3s ease-in forwards .1s;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    -webkit-animation: fade 3s ease-in forwards .1s;
+    -moz-animation: fade 3s ease-in forwards .1s;
+    -o-animation: fade 3s ease-in forwards .1s;
+    -ms-animation: fade 3s ease-in forwards .1s;
+    
+}
+
+@keyframes fade {
+    0%{transform: translateZ(50%);
+        opacity: 0;
+        text-align: center;
+    }
+    100%{
+        opacity: 1;
+        
+        text-align: center;
+    }
+}
 

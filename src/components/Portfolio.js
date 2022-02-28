@@ -9,7 +9,7 @@ import dayplan from "../assets/dayplan.png";
 
 function Portfolio() {
   return (
-    <div className="bordlength has-background-success">
+    <div className="test-p bordlength has-background-success">
       <h1 className="has-text-centered has-text-weight-bold is-size-1">
         Portfolio
       </h1>

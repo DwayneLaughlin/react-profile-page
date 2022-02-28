@@ -2,9 +2,10 @@ import React from "react";
 import me from "../assets/me.jpg";
 import "../Style.css"
 
+
 function Home() {
   return (
-    <div className="bordlength columns has-background-warning">
+    <div className="test-p bordlength columns has-background-warning">
       <div className="column is-three-fifths">
         <h1 className="has-text-centered has-text-weight-bold is-size-1">
           About Me
@@ -27,7 +28,7 @@ function Home() {
           Mongo, and React. Since that time I have worked on smaller
           applications like a BMI calculator, random color generator, and an app
           that keeps score while users play Fantasy Top Chef. I am always
-          looking for opportunities to expand my skills and leanr about new
+          looking for opportunities to expand my skills and learn about new
           technologies and languages.
           <br />
           <br />
